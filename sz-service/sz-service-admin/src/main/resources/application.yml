@@ -4,7 +4,7 @@ spring:
       # 启用虚拟线程
       enabled: true
   profiles:
-    active: local
+    active: dev
   config:
     import:
       - classpath:config/${spring.profiles.active}/flyway.yml
