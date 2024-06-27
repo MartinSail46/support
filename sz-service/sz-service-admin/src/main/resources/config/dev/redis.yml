@@ -3,8 +3,8 @@ spring:
   data:
     redis:
       #单机配置
-      host: 127.0.0.1
-      port: 6379
+      host: 192.168.0.8
+      port: 32724
       # 数据索引
       database: 0
       # 连接超时时间（毫秒）
