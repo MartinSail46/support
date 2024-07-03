@@ -23,6 +23,10 @@ public class TemplateIoImportDTO {
     @Schema(description =  "关联的模版ID")
     private String templateId;
 
+    @ExcelProperty(value = "关联的模板名称")
+    @Schema(description =  "关联的模版名称")
+    private String templateName;
+
     @ExcelProperty(value = "设备")
     @Schema(description =  "设备")
     private String device;

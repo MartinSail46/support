@@ -31,6 +31,9 @@ public class TemplateDisk implements Serializable {
     @Schema(description ="关联的模版ID")
     private String templateId;
 
+    @Schema(description =  "关联的模版名称")
+    private String templateName;
+
     @Schema(description ="文件系统")
     private String fileSystem;
 

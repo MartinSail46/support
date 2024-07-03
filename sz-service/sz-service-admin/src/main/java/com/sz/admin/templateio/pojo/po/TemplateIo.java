@@ -1,5 +1,6 @@
 package com.sz.admin.templateio.pojo.po;
 
+import com.alibaba.excel.annotation.ExcelProperty;
 import com.mybatisflex.annotation.*;
 
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -30,6 +31,9 @@ public class TemplateIo implements Serializable {
 
     @Schema(description ="关联的模版ID")
     private String templateId;
+
+    @Schema(description =  "关联的模版名称")
+    private String templateName;
 
     @Schema(description ="设备")
     private String device;

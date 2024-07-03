@@ -27,8 +27,8 @@ spring:
 # 生成工具
 generator:
   path:
-    web:
-    api: E://code//Gitlab//sz-framework//sz-admin
+    web: C://Users//fyf67//WebstormProjects//support-web
+    api: D://work//workspace//support
 # 微信生态
 wechat:
   # 小程序

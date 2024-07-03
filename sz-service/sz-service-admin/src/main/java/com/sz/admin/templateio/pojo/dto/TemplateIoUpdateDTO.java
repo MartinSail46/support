@@ -1,6 +1,7 @@
 package com.sz.admin.templateio.pojo.dto;
 
 
+import com.alibaba.excel.annotation.ExcelProperty;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 import java.time.LocalDateTime;
@@ -23,6 +24,9 @@ public class TemplateIoUpdateDTO {
 
     @Schema(description =  "关联的模版ID")
     private String templateId;
+
+    @Schema(description =  "关联的模版名称")
+    private String templateName;
 
     @Schema(description =  "设备")
     private String device;

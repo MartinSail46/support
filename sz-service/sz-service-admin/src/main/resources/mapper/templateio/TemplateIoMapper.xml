@@ -5,6 +5,7 @@
     <resultMap id="BaseResultMap" type="com.sz.admin.templateio.pojo.po.TemplateIo">
         <id column="id" property="id"/>
         <result column="template_id" property="templateId"/>
+        <result column="template_name" property="templateName"/>
         <result column="device" property="device"/>
         <result column="tps" property="tps"/>
         <result column="kb_read_s" property="kbReadS"/>
@@ -21,7 +22,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        template_id, device, tps, kb_read_s, kb_write_s, kb_read, kb_write, del_flag, revision, created_id, created_time, updated_id, updated_time
+        template_id, template_name, device, tps, kb_read_s, kb_write_s, kb_read, kb_write, del_flag, revision, created_id, created_time, updated_id, updated_time
     </sql>
 
 </mapper>
