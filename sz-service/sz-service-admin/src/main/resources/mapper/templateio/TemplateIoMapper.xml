@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sz.admin.templateio.mapper.TemplateIoMapper">
+    <!-- 通用映射 -->
+    <resultMap id="BaseResultMap" type="com.sz.admin.templateio.pojo.po.TemplateIo">
+        <id column="id" property="id"/>
+        <result column="template_id" property="templateId"/>
+        <result column="device" property="device"/>
+        <result column="tps" property="tps"/>
+        <result column="kb_read_s" property="kbReadS"/>
+        <result column="kb_write_s" property="kbWriteS"/>
+        <result column="kb_read" property="kbRead"/>
+        <result column="kb_write" property="kbWrite"/>
+        <result column="del_flag" property="delFlag"/>
+        <result column="revision" property="revision"/>
+        <result column="created_id" property="createdId"/>
+        <result column="created_time" property="createdTime"/>
+        <result column="updated_id" property="updatedId"/>
+        <result column="updated_time" property="updatedTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        template_id, device, tps, kb_read_s, kb_write_s, kb_read, kb_write, del_flag, revision, created_id, created_time, updated_id, updated_time
+    </sql>
+
+</mapper>
